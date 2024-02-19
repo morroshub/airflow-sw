@@ -1,0 +1,238 @@
+[2024-02-19T11:40:16.638+0000] {processor.py:161} INFO - Started process (PID=82364) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:40:16.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:40:16.646+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:40:16.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:40:17.280+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:40:17.274+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:40:17.281+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:40:17.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 0.693 seconds
+[2024-02-19T11:40:47.867+0000] {processor.py:161} INFO - Started process (PID=82617) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:40:47.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:40:47.875+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:40:47.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:40:48.410+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:40:48.402+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:40:48.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:40:48.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 0.603 seconds
+[2024-02-19T11:41:04.645+0000] {processor.py:161} INFO - Started process (PID=82744) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:04.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:41:04.661+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:41:04.659+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:05.875+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:41:05.851+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:41:05.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:05.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 1.361 seconds
+[2024-02-19T11:41:27.586+0000] {processor.py:161} INFO - Started process (PID=82932) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:27.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:41:27.596+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:41:27.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:28.309+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:41:28.296+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:41:28.323+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:28.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 0.836 seconds
+[2024-02-19T11:41:58.483+0000] {processor.py:161} INFO - Started process (PID=83191) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:58.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:41:58.489+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:41:58.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:59.740+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:41:59.726+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:41:59.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:41:59.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 1.400 seconds
+[2024-02-19T11:42:30.100+0000] {processor.py:161} INFO - Started process (PID=83444) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:42:30.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:42:30.107+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:42:30.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:42:30.580+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:42:30.576+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:42:30.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:42:30.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 0.527 seconds
+[2024-02-19T11:43:00.759+0000] {processor.py:161} INFO - Started process (PID=83715) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:43:00.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:43:00.768+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:00.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:43:01.380+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:01.375+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_config.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:43:01.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:43:01.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 0.671 seconds
+[2024-02-19T11:43:31.797+0000] {processor.py:161} INFO - Started process (PID=83981) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:43:31.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:43:31.803+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:31.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:43:33.588+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:33.588+0000] {__init__.py:14} INFO - Pandas backend loaded 2.0.3
+[2024-02-19T11:43:33.667+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:33.666+0000] {__init__.py:25} INFO - Numpy backend loaded 1.24.4
+[2024-02-19T11:43:33.672+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:33.672+0000] {__init__.py:37} INFO - Pyspark backend NOT loaded
+[2024-02-19T11:43:33.676+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:33.676+0000] {__init__.py:43} INFO - Python backend loaded
+[2024-02-19T11:43:34.043+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:34.043+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-v92open0 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-19T11:43:34.871+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:34.870+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-19T11:43:37.386+0000] {processor.py:840} INFO - DAG(s) 'dag_principal' retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:43:37.593+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:37.592+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:dag_principal
+[2024-02-19T11:43:37.616+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:37.615+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:dag_principal
+[2024-02-19T11:43:37.631+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:37.630+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:dag_principal
+[2024-02-19T11:43:37.632+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:37.632+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-19T11:43:37.657+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:37.656+0000] {dag.py:3058} INFO - Creating ORM DAG for dag_principal
+[2024-02-19T11:43:37.674+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:43:37.674+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_principal to 2024-02-19 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-19T11:43:37.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 5.937 seconds
+[2024-02-19T11:44:07.794+0000] {processor.py:161} INFO - Started process (PID=84303) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:07.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:44:07.798+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:07.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:09.265+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:09.265+0000] {__init__.py:14} INFO - Pandas backend loaded 2.0.3
+[2024-02-19T11:44:09.274+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:09.274+0000] {__init__.py:25} INFO - Numpy backend loaded 1.24.4
+[2024-02-19T11:44:09.275+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:09.275+0000] {__init__.py:37} INFO - Pyspark backend NOT loaded
+[2024-02-19T11:44:09.277+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:09.276+0000] {__init__.py:43} INFO - Python backend loaded
+[2024-02-19T11:44:09.454+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:09.454+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-8kvc37ol because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-19T11:44:09.818+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:09.817+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-19T11:44:11.907+0000] {processor.py:840} INFO - DAG(s) 'dag_principal' retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:11.986+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:11.986+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-19T11:44:12.051+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:12.050+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_principal to 2024-02-19 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-19T11:44:12.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 4.309 seconds
+[2024-02-19T11:44:42.295+0000] {processor.py:161} INFO - Started process (PID=84596) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:42.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:44:42.302+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:42.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:44.040+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:44.040+0000] {__init__.py:14} INFO - Pandas backend loaded 2.0.3
+[2024-02-19T11:44:44.056+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:44.056+0000] {__init__.py:25} INFO - Numpy backend loaded 1.24.4
+[2024-02-19T11:44:44.058+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:44.057+0000] {__init__.py:37} INFO - Pyspark backend NOT loaded
+[2024-02-19T11:44:44.059+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:44.059+0000] {__init__.py:43} INFO - Python backend loaded
+[2024-02-19T11:44:44.360+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:44.359+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-atx0q3gs because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-19T11:44:44.837+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:44.836+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-19T11:44:47.605+0000] {processor.py:840} INFO - DAG(s) 'dag_principal' retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:47.656+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:47.655+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-19T11:44:47.706+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:47.706+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_principal to 2024-02-19 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-19T11:44:47.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 5.474 seconds
+[2024-02-19T11:44:58.239+0000] {processor.py:161} INFO - Started process (PID=84753) to work on /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:58.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_config.py for tasks to queue
+[2024-02-19T11:44:58.262+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:58.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:44:59.908+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:59.908+0000] {__init__.py:14} INFO - Pandas backend loaded 2.0.3
+[2024-02-19T11:44:59.921+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:59.920+0000] {__init__.py:25} INFO - Numpy backend loaded 1.24.4
+[2024-02-19T11:44:59.922+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:59.922+0000] {__init__.py:37} INFO - Pyspark backend NOT loaded
+[2024-02-19T11:44:59.924+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:44:59.924+0000] {__init__.py:43} INFO - Python backend loaded
+[2024-02-19T11:45:00.247+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:45:00.247+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_4s3ivvx because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-19T11:45:00.872+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:45:00.871+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-19T11:45:03.588+0000] {processor.py:840} INFO - DAG(s) 'dag_principal' retrieved from /opt/airflow/dags/dag_config.py
+[2024-02-19T11:45:03.645+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:45:03.644+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-19T11:45:03.688+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:45:03.687+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_principal to 2024-02-19 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-19T11:45:03.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_config.py took 5.513 seconds

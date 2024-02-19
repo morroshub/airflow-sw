@@ -1,0 +1,130 @@
+[2024-02-19T11:35:16.305+0000] {processor.py:161} INFO - Started process (PID=79882) to work on /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:35:16.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sql/dag_config.py for tasks to queue
+[2024-02-19T11:35:16.327+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:35:16.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:35:17.349+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:35:17.346+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sql/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sql/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:35:17.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:35:17.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sql/dag_config.py took 1.093 seconds
+[2024-02-19T11:35:47.591+0000] {processor.py:161} INFO - Started process (PID=80153) to work on /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:35:47.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sql/dag_config.py for tasks to queue
+[2024-02-19T11:35:47.596+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:35:47.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:35:48.129+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:35:48.122+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sql/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sql/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:35:48.131+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:35:48.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sql/dag_config.py took 0.599 seconds
+[2024-02-19T11:36:18.686+0000] {processor.py:161} INFO - Started process (PID=80406) to work on /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:36:18.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sql/dag_config.py for tasks to queue
+[2024-02-19T11:36:18.697+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:36:18.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:36:19.319+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:36:19.314+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sql/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sql/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:36:19.320+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:36:19.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sql/dag_config.py took 0.681 seconds
+[2024-02-19T11:36:49.819+0000] {processor.py:161} INFO - Started process (PID=80659) to work on /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:36:49.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sql/dag_config.py for tasks to queue
+[2024-02-19T11:36:49.837+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:36:49.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:36:50.672+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:36:50.666+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sql/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sql/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:36:50.674+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:36:50.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sql/dag_config.py took 0.937 seconds
+[2024-02-19T11:37:21.095+0000] {processor.py:161} INFO - Started process (PID=80914) to work on /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:37:21.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sql/dag_config.py for tasks to queue
+[2024-02-19T11:37:21.104+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:37:21.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:37:21.614+0000] {logging_mixin.py:188} INFO - [2024-02-19T11:37:21.609+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sql/dag_config.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sql/dag_config.py", line 9, in <module>
+    from pandas_profiling import ProfileReport
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/__init__.py", line 8, in <module>
+    from pandas_profiling.compare_reports import compare
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/compare_reports.py", line 6, in <module>
+    from pandas_profiling.config import Correlation, Settings
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas_profiling/config.py", line 7, in <module>
+    from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/__init__.py", line 363, in __getattr__
+    return _getattr_migration(attr_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pydantic/_migration.py", line 296, in wrapper
+    raise PydanticImportError(
+pydantic.errors.PydanticImportError: `BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.5/migration/#basesettings-has-moved-to-pydantic-settings for more details.
+
+For further information visit https://errors.pydantic.dev/2.5/u/import-error
+[2024-02-19T11:37:21.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sql/dag_config.py
+[2024-02-19T11:37:21.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sql/dag_config.py took 0.564 seconds
