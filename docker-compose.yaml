@@ -2,13 +2,14 @@
 version: '3'
 x-airflow-common:
   &airflow-common
-    image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.1}
+    image: ${AIRFLOW_IMAGE_NAME:-extending-modmorros-apache/airflow:2.8.1}
     # build: .
     environment:
       &airflow-common-env
+        AIRFLOW_UID: '5000'
         AIRFLOW__CORE__EXECUTOR: LocalExecutor
         AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-        AIRFLOW__CORE__FERNET_KEY: ''
+        AIRFLOW__CORE__FERNET_KEY: 'UKMzEm3yIuFYEq1y3-2FxPNWSVwRASpahmQ9kQfEr8E'
         AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
         AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
         AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
