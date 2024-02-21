@@ -24,7 +24,7 @@ matplotlib.use('Agg')  # Use Agg backend (non-interactive) for saving plots
 
 # Activamos la imagen de docker para interactuar con un CLI de airflow
  # docker exec -it 'ID-Contenedor' bash
- # docker exec -it f7b806ca4b36 bash
+ # docker exec -it 0510eced087a bash
 
 # Set date time and structure 
 TZ = pytz.timezone('America/Argentina/Buenos_Aires')
@@ -159,3 +159,36 @@ curated = PythonOperator(
 
 # Test
 # airflow tasks test dag_principal curated 2024-02-19
+
+
+# Utilizando la conexion con postgres
+
+# Creando tabla
+create_rawdata = PostgresOperator(
+    dag=dag,
+    task_id = 'create_rawdata',
+    postgres_conn_id = 'posgres_docker',
+    sql = """
+        CREATE TABLE IF NOT EXISTS raw_csv_tproject (
+            passenger_id VARCHAR(50),
+            full_name VARCHAR(50),
+            title VARCHAR(10),
+            sex VARCHAR(10),
+            pclass INT,
+            survived INT,
+            age FLOAT,
+            sibsp INT,
+            parch INT,
+            fare FLOAT,
+            embarked VARCHAR(10)
+        )
+    """
+)
+
+# airflow tasks test dag_principal create_rawdata 2024-02-19
+
+# # Insertando data
+# insert_rawdata = PostgresOperator(
+#     task_id = 'load_rawdata',
+#     postgres_conn_id = 'postgres_docker'
+# )
