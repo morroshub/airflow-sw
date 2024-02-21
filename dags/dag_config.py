@@ -45,6 +45,7 @@ DEFAULT_ARGS = {
 }
 
 # Funcion para crear el archivo mejorado html del CSV
+
 def _profilling():
         # Configura MPLCONFIGDIR antes de utilizar pandas_profiling
     os.environ['MPLCONFIGDIR'] = '/opt/airflow/dags/matplotlib_cache'
